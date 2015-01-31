@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+     android:background="@drawable/character_bg"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/title"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/herosjournal"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+    
+    <com.torch2424.battlequest.GameTextView
+            android:id="@+id/entryView"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    
+    <LinearLayout
+    android:id="@+id/entryList"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+        <!-- need android clickable so people can select it -->
+    
+        <TextView
+            android:id="@+id/entry1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/entry1"
+            android:textColor="@color/black"
+            android:background="@drawable/journal_item"
+            android:clickable="true"
+            android:onClick="readEntry"
+            android:textSize="25sp" />
+        
+        <TextView
+            android:id="@+id/entry2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/entry2"
+            android:textColor="@color/black"
+            android:background="@drawable/journal_item"
+             android:clickable="true"
+            android:onClick="readEntry"
+            android:textSize="25sp" />
+        
+         <TextView
+            android:id="@+id/entry3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/entry3"
+            android:textColor="@color/black"
+            android:background="@drawable/journal_item"
+             android:clickable="true"
+            android:onClick="readEntry"
+            android:textSize="25sp" />
+    
+        </LinearLayout>
+    
+    </LinearLayout>
+    
+    </ScrollView>
+     
+      <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttons"
+            android:onClick="cancel"
+            android:text="@string/quit" />
+
+</LinearLayout>

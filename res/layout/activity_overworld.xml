@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/overworld"
+    android:scaleType="centerCrop"
+    tools:context="com.torch2424.battlequest.Overworld" >
+
+        <ImageButton
+            android:id="@+id/world1"
+             android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_above="@+id/player"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/plainsoverworlds"
+            android:contentDescription="@string/tank"
+            android:onClick="worldSelect"
+            android:scaleType="fitCenter" />
+        
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+       		 android:layout_alignParentLeft="true"
+            android:background="@drawable/buttons"
+            android:onClick="cancel"
+            android:text="@string/back" />
+
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dmm"
+             android:clickable="true"
+            android:onClick="playerClick"
+            android:contentDescription="@string/crit" />
+
+        <ImageButton
+            android:id="@+id/world2"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_above="@+id/world1"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/world2iconlocked"
+            android:contentDescription="@string/tank"
+            android:onClick="worldSelect"
+            android:scaleType="fitCenter" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:onClick="begin"
+    tools:context="com.torch2424.broquest.StartScreen" >
+
+    <TextView
+        android:id="@+id/noComply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:text="@string/noComply"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gameBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noComply"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/gameBy"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:text="@string/year"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tapToBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/tapToBegin"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/broquesttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tapToBegin"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/tank"
+        android:src="@drawable/rrppgg_title" />
+
+</RelativeLayout>

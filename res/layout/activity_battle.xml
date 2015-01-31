@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.torch2424.broquest.Battle"
+    tools:ignore="MergeRootFrame" >
+        
+        <RelativeLayout
+            android:id="@+id/battleScreen"
+            android:layout_width="match_parent"
+        android:layout_height="0dip"
+         android:layout_weight="0.05"
+         android:scaleType="centerCrop"
+          android:background="@drawable/dungeonbg" >
+
+        <ImageView
+            android:id="@+id/monster"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/crit"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@drawable/baby_ghost" />
+        
+        </RelativeLayout>
+        
+        
+        <!-- ld layout height 225 -->
+       <RelativeLayout 
+         android:id="@+id/battleMenu"
+         android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/battle_menu">
+        
+        <LinearLayout 
+            android:id="@+id/battleButtons"
+            android:layout_width="105dp"
+        android:layout_height="190dp"
+        android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            	android:gravity="center_horizontal"
+        android:orientation="vertical">
+            
+            <Button
+            android:id="@+id/fight"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="fight"
+            android:text="@string/fight" />
+            
+            <Button
+            android:id="@+id/secondary"
+             android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="secondary"
+            android:text="@string/defend" />
+            
+            <Button
+            android:id="@+id/items"
+           android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="items"
+            android:text="@string/items" />
+            
+            <Button
+            android:id="@+id/run"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="run"
+            android:text="@string/run" />
+            
+            <Button
+            android:id="@+id/reset"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="reset"
+            android:text="@string/reset" />
+             
+              <Button
+            android:id="@+id/quit"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttons"
+            android:onClick="quit"
+            android:text="@string/quit" />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+            >
+            
+            <com.torch2424.battlequest.GameTextView
+                   android:id="@+id/console"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#000000"
+                   android:text="@string/loading" />
+            
+            <ListView
+                 android:id="@+id/ListView1"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:listSelector="@drawable/journal_item" >
+                
+                
+            </ListView>
+            
+        </LinearLayout>
+
+        
+       </RelativeLayout>
+        
+</LinearLayout>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trust In Heart Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="tapToBegin">Tap To Begin the Demo!</string>
+    <string name="gameBy">A Game Demo By Aaron Turner</string>
+    <string name="year">2014, 2015</string>
+    <string name="noComply">No Comply Games</string>
+    <string name="quit">Quit</string>
+    <string name="continueText">Continue</string>
+    <string name="newChar">New</string>
+    <string name="deleteChar">Delete</string>
+    <string name="deleteConfirm">Are you sure you would like to delete this character?
+        This action can NOT be undone.</string>
+    <string name="editChar">Edit</string>
+    <string name="welcomeRRPPGG">A Hero\'s Quest Begins</string>
+    <string name="editTextHint">Enter Save File Name</string>
+    <string name="editFile">Please enter a name for the character file below</string>
+    <string name="importChar">Import</string>
+     <string name="back">Back</string>
+    <string name="start">Start</string>
+    <string name="shop">Shops</string>
+    <string name="character">Character</string>
+    <string name="options">Options</string>
+    <string name="title_activity_battle">Battle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Loading...</string>
+    <string name="fight">Fight</string>
+    <string name="defend">Defend</string>
+    <string name="items">Items</string>
+    <string name="run">Run</string>
+    <string name="title_activity_creator">Character Creator</string>
+    <string name="nameQuestion">What\'s your name?</string>
+    <string name="genderQuestion">Are you a boy or girl?</string>
+    <string name="skinQuestion">How would you describe your skin tone?</string>
+    <string name="dude">Boy</string>
+    <string name="lady">Girl</string>
+    <string name="dark">Dark</string>
+    <string name="tan">Tan</string>
+    <string name="light">Light</string>
+    <string name="statQuestion">Choose a class:</string>
+    <string name="tank">Tank - Known for being able to take a lot of damage. They specialize in hit points.
+         They are represented by wearing the color green.
+        Their special move is "Block", allowing them to cancel enemy damage for a turn. However, it can only be used
+        once per battle.</string>
+    <string name="warrior">Warrior - Known for being able to deal a lot of damage. They specialize in strength.
+         They are represented by wearing the color yellow.
+        Their special move is "Charge", allowing them to charge up an attack for a two turns, and get a critical hit
+        on their third</string>
+    <string name="mage">Mage - Known for being able to use magic. They specialize in intelligence.
+         They are represented by wearing the color blue.
+        Their special move is "Magic", allowing them to use the magic bounded to their weapons</string>
+    <string name="rogue">Rogue - Known for being able to land critical hits and dodge enemy attacks often.
+         They are represented by wearing the color grey.
+        They specialize in dexterity. Their special move is "Counter", allowing them to reduce damage by the
+        enemy and themselves by half. </string>
+    <string name="finish">The person above this text is who you will be, save yourself before you delete yourself!</string>
+    <string name="save">Save</string>
+    <string name="reset">Restart</string>
+    <string name="crit">It\'s a critical hit!\n</string>
+    <string name="ecrit">The enemy attack was critical!\n</string>
+    <string name="dodge">You dodged the hit!\n</string>
+    <string name="edodge">Your attack has been dodged!\n</string>
+    <string name="title_activity_char_edit">Character</string>
+    <string name="equipment">Equipment</string>
+    <string name="skills">Skills</string>
+    <string name="totalStats">Total Stats</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="viewItems">Items</string>
+    <string name="changeEquip">Equipment</string>
+    <string name="cancel">Cancel</string>
+    <string name="journal">Journal</string>
+     <string name="herosjournal">Trust In Heart</string>
+    <string name="title_activity_overworld">Overworld</string>
+    
+    <string name="itemshop">HP Girl</string>
+    <string name="HPshop">Tank Y Moi</string>
+    <string name="strshop">Swords Of The Down</string>
+    <string name="intshop">MGMP</string>
+    <string name="dexshop">Rogue Mind Tricks</string>
+     <string name="equip">Equip</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+     <string name="special">Special</string>
+    <string name="shopConfirm">Are you sure you would like to buy</string>
+    <string name="shopBuy">Thank you for shopping with us!</string>
+    <string name="shopEquip">Would you like to equip this item now?</string>
+    <string name="shopSell">Would you like to sell your old</string>
+    <string name="shopSure">Are you sure?</string>
+     <string name="shopCantSell">You cannot sell an item you have equipped!</string>
+    <string name="shopFor">for</string>
+     <string name="shopNo">It\'s fine! Please, take your time!</string>
+    <string name="sold">Sold!</string>
+    <string name="equipped">(Equipped)</string>
+    <string name="cantEquip">You cannot equip something that is already equipped!</string>
+    <string name="itemEquip">You cannot equip an item!</string>
+    <string name="equipConfirm">It was successfully equipped!</string>
+     <string name="selectChar">Choose Your Character</string>
+      <string name="importCharTitle">Import Character</string>
+     <string name="fileFormat">Trust In Heart save files must follow this format: "Trust In Heart-(Name).sav"</string>
+    
+    <string name="entry1">\nEntry #1\n</string>
+    <string name="entry2">\nEntry #2\n</string>
+    <string name="entry3">\nEntry #3\n</string>
+    
+    
+        
+    <!-- Strings for entering shops -->
+    
+   <string name="store1">Welcome! We don\'t discriminate to any class, as long as you have the required
+       skills, you can buy anything you\'d like!</string>
+   <string name="store2">Hello! You know a mage\'s magic spell has base damage, but the spell grows stronger
+       with intelligence, no matter the base damage!</string>
+   <string name="store3">Hi! I just received a note from the head programmer, he says "Thank you for playing
+       Trust In Heart!" And he wishes you a nice day!</string>
+   <string name="store4">Howdy! Dexterity is a lot more important than it seems!
+       Dexterity determines you chances of running, dodging, and even critical hits!</string>
+   <string name="store5">Sup! We shop keepers like to play games like everyone else! Lately, I\'ve been
+       playing a lot of indie games...</string>
+   <string name="store6">Hiya! The shops have been low on customers lately, if you like this game, I\'d appreciate it if
+       you would tell your friends! It\'ll help out the shopkeepers and the developer! </string>
+   <string name="store7">Hiya! The shops have been low on customers lately, if you like this game, I\'d appreciate it if
+       you would tell your friends! It\'ll help out the shopkeepers and the developer!</string>
+   <string name="store8">Hiya! The shops have been low on customers lately, if you like this game, I\'d appreciate it if
+       you would tell your friends! It\'ll help out the shopkeepers and the developer!</string>
+   <string name="store9">Hiya! The shops have been low on customers lately, if you like this game, I\'d appreciate it if
+       you would tell your friends! It\'ll help out the shopkeepers and the developer!</string>
+   <string name="store10">Hello there! I heard the journal you\'ve been carrying around is a really good read.
+       You heroes have the most interesting stories. You should check it out from the main menu!</string>
+	<string name="store11">Good Afternoon/Evening/Morning! I don\'t get out of the shop much, I don\'t even know
+	    what time it is. But hey, I\'ve always liked working hero\'s retail! </string>
+	<string name="store12">Aloha! You know, It\'s not just me working the store, I\'m just part of a big family of twins...
+	    Kind of like a nurse and a police officer I heard about. But, Those might just be rumors... </string>
+	<string name="store13">Hey There! What does Trust In Heart even mean? All the kids are talking about it these days. Anyways, 
+	    why don\t you browse my wares? </string>
+	<string name="store14">Hello! Do you hear that music in the background? I think it\'s the kids down the
+	    block with their music about chips...</string>
+	<string name="store15">ERROR COULD NOT FIND @STRING/WITTYSHOPSAYING </string>
+	<string name="store16">Welcome into my store! Have you ever felt like leaving the hero\'s life
+	    for a skateboard and broken bones? Yeah, me neither...</string>
+	<string name="store17">Yo! You know we store owners used to be in a group called "X-Pressive Arts"?
+	    We were all the rage back in the days!</string>
+	<string name="store18">What\'s up? The other day a group of guys came in asking about some abulm by
+	    some band. It had something to do with Trojans and acts in a play...</string>
+	<string name="store19">Howdy! Before you ask... No, we do not sell fuzzy pickles...</string>   
+	 <string name="store20">Hi! You know back in my day, our healing items were the active ingredient.
+	     And we would get much more health compared to the watered down stuff you heroes have today...</string>  
+	 <string name="store21">Hiya! I asked this guy if he liked RPGs the other day. He didn\'t respond the way
+	     I had hoped... People and their shooting games... </string>
+	 <string name="store22">Hello there! Welcome to the Super Hyper Shop EX Ultra! And, we happen to be
+	     the special arcade edition!</string> 
+	<string name="store23">Salutations! You ever noticed your score goes down when you buy, and it goes up
+	    when you sell? It\'s because your score is determined by guaps, level, wins, and losses!</string> 
+	<string name="store24">Hello valued customer! Would you like to pre-order anything with your 
+	    purchase today?</string> 
+	<string name="store25">Hello! Each skill is unique and has a lot of good benefits, You do not have to 
+	    follow your primary class skill, be adventurous!</string>
+	<string name="store26">Hiya! You know, since us shop keepers aren\'t held down by the man, we can say whatever we want!
+	    For example, "I LOVE PIZZA!". Ha! Take that programming!</string> 
+	<string name="store27">Hello valued customer! Would you like to pre-order anything with your 
+	    purchase today?</string> 
+	<string name="store28">Oh no! I just realized my mom will be home before the mud dries! 
+	    Can we make this quick?</string> 
+	<string name="store29">Welcome to the store! Where helping heroes is our number two priority! You don\'t
+	    want to know what our number one is...</string> 
+	<string name="store30">Yo! Out here we only have two real wars... The one with those ugly monsters, and
+	    the one about which console is better. And one of them we can actually win... </string> 
+	<string name="store31">Hey There! Don\'t be afraid to experiment with other skills other than your primary
+	    one. We shop keepers encourage it! </string>
+	<string name="store32">Hello! Each skill is unique and has a lot of good benefits, You do not have to 
+	    follow your primary class skill, be adventurous!</string>
+	<string name="store33">What\'s Up! Some of the other shopkeepers get lonely when buisiness is slow. You
+	    should check out what they have to offer some time!</string>
+	<string name="store34">Hiya! Sometimes I wonder how people build a game all by themselves. They must
+	    be using some kind of computer magic or something...</string>
+	  <string name="store35">Welcome to the store! You know that higher intelligence that you have will give you better
+	        prices in the stores? You heroes are so persuasive!</string> 
+	  <string name="store36">Welcome to the store! You know that higher intelligence that you have will give you better
+	        prices in the stores? You heroes are so persuasive!</string> 
+	        
+	    
+	  <!-- leave spaces in between items for intelligence bartering -->
+	  
+	  
+	<!-- Strings for Baby Items -->
+	 <string name="babyHD">Baby Hat (Head) Adds 1 HP to your total stats!
+   		    \nCost: Guaps\nRequirements: 0HP</string>
+   	<string name="babyTD">Baby Shirt (Torso) Adds 1 HP to your total stats!
+   		    \nCost: Guaps\nRequirements: 0HP</string>
+   		<string name="babyLD">Baby Pants (Legs) Adds 1 HP to your total stats!
+   		    \nCost: Guaps\nRequirements: 0HP</string>
+    	<string name="babyFD">Baby Shoes (Feet) Adds 1 HP to your total stats!
+   		    \nCost:0 Guaps\nRequirements: 0HP</string>
+   	<string name="babyWD">Baby Stick (Weapon) Adds 1 Strength to your total stats! And, It gives mages the spell Small Fireball!
+   		    \nCost: Guaps\nRequirements: 0HP</string>
+   
+	
+	
+	    <!-- Strings for Item Shop -->
+	    
+	    <string name="item1">Water</string>
+	    <string name="item1d">Water (Item) heals 4 HP during Battle!
+	        \nCost: Guaps\nRequirements: None</string>
+	     <string name="item2">Tea</string>
+       <string name="item2d">Tea (Item) heals 10 HP during Battle!
+           \nCost: Guaps\nRequirements: None</string>
+	        
+       <!-- Strings for HP Shop -->
+   		<string name="HP1">Plastic Chest</string>
+   		<string name="HP1d">Plastic Chest (Torso) Adds 3 HP to your total stats!
+   		    \nCost: Guaps\nRequirements: 15 HP</string>
+   		<string name="HP2">Wooden Chest</string>
+   		<string name="HP2d">Wooden Chest (Torso) Adds 6 HP to your total stats!
+   		    \nCost: Guaps\nRequirements: 25 HP</string>
+   		    
+   		<!-- Strings for STR Shop -->
+    	<string name="str1">Durable Sword</string>
+   		<string name="str1d">Durable Sword (Weapon) Adds 3 Strength to your total stats!
+   		    \nCost: Guaps\nRequirements: 15 Strength</string>
+   		<string name="str2">Strong Lance</string>
+   		<string name="str2d">Strong Lance (Weapon) Adds 6 Strength to your total stats!
+   		    \nCost: Guaps\nRequirements: 25 Strength</string>
+   		    
+   		<!-- Strings for INT shop -->
+    	<string name="int1">Water Slash Book</string>
+   		<string name="int1d">Water Slash (Weapon) is a spell with a base damage of 2!
+   		    \nCost: Guaps\nRequirements: 15 Intelligence</string>
+   		<string name="int2">Good Wand</string>
+   		<string name="int2d">Good Wands (Weapon) gives you the spell Minor Healing, and adds 3 to your Strength!
+   		    \nCost: Guaps\nRequirements: 25 Intelligence</string>
+   		    
+   		<!-- Strings for Dex shop -->
+    	<string name="dex1">Red Bandanna</string>
+   		<string name="dex1d">Red Bandanna (Head) adds 3 Dexterity to your total stats!
+   		    \nCost: Guaps\nRequirements: 15 Dexterity</string>
+   		<string name="dex2">Blue Bandanna</string>
+   		<string name="dex2d">Blue Bandanna  (Head) Adds 6 Dexterity to your total stats!
+   		    \nCost: Guaps\nRequirements: 25 Dexterirty</string>
+   		 
+   		<!-- Shop reasons you can't buy stuff -->
+   		
+   		<string name="HPR">You cannot buy that item! Youre HP is too low!</string>
+   		<string name="strR">You cannot buy that item! Youre Strength is too low!</string>
+   		<string name="intR">You cannot buy that item! Youre Intelligence is too low!</string>
+   		<string name="dexR">You cannot buy that item! Youre Dexterity is too low!</string>
+   		<string name="scoreR">You cannot buy that item! Youre Score is too low!</string>
+   		<string name="guapsR">Sorry, but you do not have enough guaps to buy that...</string>
+   		
+   		<!-- Demo End -->
+   		
+   		<string name="demoEnd">Congratulations!</string>
+   		
+   		<string name="demoEndText">You have successfully defeated the second boss of Trust In Heart, which brings you to
+   		     the end of this
+   		    demo. I really hope you enjoyed this game, and I really appreciate you taking the time to play it. This
+   		    is my very first game, and I expect to release it for free (with a paid version as well) 
+   		    by the end of 2014, if not early 2015 for android and Ouya.
+   		     I will defintely be adding 6 more worlds, new items, new equipment, more features, all of the coming soon options, 
+   		     and much MUCH more!\n\nYou can follow the development of this game from several places.\n\n
+   		      The developer, Aaron Turner, twitter account: @Aviscerall\n
+   		      No Comply Games Dev Blog: nocomplygames.tumblr.com\n
+   		      Trust In Heart Game Page: trustinheartgame.tumblr.com\n\n
+   		      Again, thank you very much for playing through this demo, and I hope you are looking forward to the
+   		      full game of Trust In Heart!</string>
+   		    
+   		
+   		<!-- Welcome game text -->
+   		
+   		<string name="welcomeText">So you\'ve decided to play the demo for Trust In Heart huh? Well, I must say you\'ve made a great choice.
+   		    This is a game of blood, sweat, and tears, and everything in between! Well, that is, if there is
+   		    anything in between. Anyways, this quest will be harder than most you have faced before. And it\'s dangerous
+   		    to go alone, without any tips. So, here are some basics on developing yourself into a fine hero.
+   		    \n\nHP - This skill determines your health. The amount of damage you can take before calling
+   		    it quits in a battle.\n\n
+   		    Strength - This skill determines your physical strength, and determines how much damage you will do 
+   		    with the fight button in battle.\n\nIntelligence - This skill determines the amount of damage you will
+   		    do with the magic button in battle. However, magic is exclusive to the mage class. And as a bonus, 
+   		    intelligence will determine the prices inside of shops. The higher the intelligence, the lower
+   		     the price!\n\nDexterity - Last but definitely not least, this skill determines your chances of dodging,
+   		      landing critical hits, and running away in battles.\n\nBefore I let you go, I must let you know
+   		      many events will happen across your journey, and it will all be recorded in your journal.
+   		      And, I would also like to let you
+   		      know that your skills are your most important assest, develop yourself wisely, and you can defeat any foe.
+   		      Press continue below to begin creation of your character...\n\nP.S this demo may have some bugs 
+   		      and a lot of features are missing, please do not judge this demo as a final product, it is merely a first look 
+   		      into the game and its mechanics.</string>
+   		
+   		
+    <!-- strings for journal &#8230; is for ellipsess (...)-->
+    
+    <string name="entry1Text">
+        A Quest Begins:
+I feel like I’ve fallen asleep, and now I’m in a nightmare.
+Or that I’m in a nightmare that I woke up still in.
+The legendary hero who protected us all is dead.
+And now monsters are free to roam the land once more.
+The King of Monsters has escaped his eternal prison.
+And my dearly beloved is gone. 
+We lived a happy life.
+In a happy home.
+In a peaceful village.
+Where we both lived our happy lives.
+She meant the world to me.
+As she was always there where I needed her.
+She was always by my side.
+And one day, I proposed.
+ Only to have my love snatched away from me.
+I fought as hard as I could.
+But I was too weak.
+And so was my heart.
+And now my love is gone.
+I cried the entire night.
+As the village laid in ruins.
+And now that the sun has risen,
+I swear vengeance on everyone who did this to
+my village, my wife, and myself.
+People have never believed in me.
+And I’ve never believed in myself.
+But I need a hero.
+But the hero is dead.
+So I must walk this path.
+And become the hero the world needs...
+ </string>
+		
+    <string name="entry2Text">The First Step:
+I started my adventure in the plains of my hometown.
+I gathered the gear I could find in the ruins of my village.
+And people warned me not to go.
+They told me I was not strong enough, or I would end up just giving up like I usually do.
+They told me they were afraid I would die.
+But i was in the moment, and I left anyways.
+I went training, preparing for the journey ahead of me.
+But then, I found a suspicious monster on the outskirts of town,
+and when I approached him he spoke of some sort of plans and disgraced my home. 
+I easily defeated him to teach him the lesson and continued onward.
+The difficult training I had done gave me strength to my surprise, and
+after some investigation and exploration, I fought several monsters, 
+continually trying to defeat them, and discovered they were all connected , 
+plotting and researching, to destroy my home town? 
+This was all part of a bigger plan devised by a monster that was their leader. 
+I thought this leader may have my love, so followed them to his lair. And what I saw was amazing. 
+It was a monster of awe-striking size, with swords for arms, and deep red eyes. 
+He laughed at the thought of me defeating him. And I reasoned that I would not be able to defeat him. 
+But the fresh need for vengeance was in my heart, and we fought. Even though I lost some battles, 
+this feeling pushed me forward, and I never gave up until I emerged as the winner. 
+I was relieved to know that know that he was defeated, the people of my village were now safe. 
+But, I was still determined to find my love. I searched the lair, but all I found was a map with a circled location. 
+In hopes of it being my love. I destroyed the leaders plans, got my things from my home, and left to this new land.
+</string>
+		
+    <string name="entry3Text">
+        Losing:
+The map lead to me to a vast and barren desert. 
+The heat was unbearable. So I decided to rest to regain some of my energy to fight. 
+But this did not help. The first monster I fought, mentioned the heat to me. 
+Which only made it more unbearable, and it felt so much stronger. And I was baffled by the monster’s strength, 
+it was more powerful than the leader I had fought! However I still won, and I continued to fight. 
+Though these battles are starting to take a toll on me. I am feeling weaker, and the monsters could notice as well. 
+They kept mocking my strength, as they knew I would not be able to defeat them. Even I knew I could not defeat them. 
+And by the time I had reached their boss. I wanted to give up. The worry and pain was building up in my mind. 
+And, the boss laughed at me, as he knew I had appeared for my love. He knew I was in no position to take her back. 
+But I fought him because my heart still had the feeling to fight. And even though I am weak, 
+these experiences are making me stronger. It was a long, and grueling battle. But I eventually defeated him, 
+though I was filled with intense pain. As he lay there on the ground, I searched through his things, and found a letter. 
+It described a location to where my love was being taken, so I took note of it, and limped away. 
+I struggled to limp away, and before I left, I looked at the boss. He turned his head, looked back at me, and said, 
+“I can see you want to give up hero. Just do it. Revenge and love are a weak man’s emotion. 
+and weak men will never be able to stop evil alone.” I knew in my mind, that I really wanted to give up, 
+and simply mourn the loss of my love. But my weakening heart made me carry on.
+
+    </string>
+    
+    <!-- monster story text -->
+    <string name="monster1">Hmm, a villager? From this small town? Ha! I\'ll take you out myself! 
+        You won\'t even be a problem to our plans.</string>
+    <string name="monster2"> Don\'t try to save your town. It\'s already too late. And if you refuse to run away,
+         I\'ll stop you here!</string>
+    <string name="monster3">So you think you\'re tough because you took out two small guys? I\'ll show you a real
+             monster\'s power!</string>
+    <string name="monster4">You defeated the guy before me? Don\'t get excited, the boss is getting ready to destroy
+        your town. And, I\'m not letting you even get close to him!</string>
+    <string name="monster5">So you have come to foil my plans of destroying this city? 
+        I hope you know that I am much stronger than 
+        you think! I refuse to let you defeat me hero!</string> 
+    <string name="monster6">Welcome to my world! I\'ll stop you from getting any closer to my boss and 
+        that person in the cage before this heat does!</string>
+    <string name="monster7">The boss says you\'re here for the person we nabbed? You defeated that bonehead,
+        but you are losing your energy. Are you sure can defeat me?</string>
+    <string name="monster8">I can tell that you are getting weaker! 
+        You\’re losing you energy hero! Surrender before I destroy you!</string>
+    <string name="monster9">I\'m the toughest monster here in the desert. 
+        And you are simply a weak hero! 
+        I\'m going to enjoy watching you suffer as we take away that person you are after!</string> 
+     <string name="monster10">HAHAHA so the monsters told you we have your friend? 
+         I hope you know my power is beyond your imagination!
+	And you are much too weak to take her back!
+         I\'m stopping you here hero! You can not have your precious friend!</string>
+    
+    
+    
+
+</resources>

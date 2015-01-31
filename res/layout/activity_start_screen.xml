@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bro_quest_start_bg"
+    android:orientation="vertical"
+    android:scaleType="centerCrop"
+    tools:context="com.torch2424.broquest.StartScreen" >
+
+    <ImageView
+        android:id="@+id/broquesttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rrppgg_title"
+        android:contentDescription="@string/tank" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttons"
+        android:onClick="fight"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/start" />
+    
+     <Button
+        android:id="@+id/journal"
+         android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttons"
+         android:layout_gravity="center_horizontal"
+        android:onClick="journal"
+        android:text="@string/journal" />
+    
+       <Button
+        android:id="@+id/character"
+         android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttons"
+         android:layout_gravity="center_horizontal"
+        android:onClick="character"
+        android:text="@string/character" />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttons"
+         android:layout_gravity="center_horizontal"
+        android:onClick="shop"
+        android:text="@string/shop" />
+
+
+    <Button
+        android:id="@+id/options"
+         android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttons"
+         android:layout_gravity="center_horizontal"
+        android:onClick="options"
+        android:text="@string/options" />
+
+    <Button
+        android:id="@+id/quit"
+         android:layout_width="120dp"
+        android:layout_height="55dp"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttons"
+        android:onClick="quit"
+        android:text="@string/quit" />
+
+</LinearLayout>

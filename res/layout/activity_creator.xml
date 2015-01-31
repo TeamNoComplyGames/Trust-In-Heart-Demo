@@ -1,0 +1,206 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/character_bg"
+    tools:context="com.torch2424.broquest.Creator"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nameQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/nameQuestion"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/genderQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/genderQuestion"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        
+        <RadioGroup
+            android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+            
+            <RadioButton
+                android:id="@+id/dude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/dude" 
+        android:onClick="genderClick"/>
+            
+            <RadioButton
+                android:id="@+id/lady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/lady" 
+        android:onClick="genderClick"/>
+            
+            </RadioGroup>
+            
+        <TextView
+            android:id="@+id/skinQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:text="@string/skinQuestion"
+            android:textSize="20sp" />
+            
+        
+            
+         <RadioGroup
+            android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+            
+             <RadioButton
+                android:id="@+id/dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/dark" 
+        android:onClick="skinClick"/>
+             
+             <RadioButton
+                android:id="@+id/tan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/tan" 
+        android:onClick="skinClick"/>
+             
+             <RadioButton
+                android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/light" 
+        android:onClick="skinClick"/>
+            
+             
+            
+             </RadioGroup>
+            
+        <TextView
+            android:id="@+id/statQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:text="@string/statQuestion"
+            android:textSize="20sp" />
+            
+        <RadioGroup
+            android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+            
+            <RadioButton
+                android:id="@+id/mage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="@string/mage"
+        android:onClick="classClick" />
+            
+            
+            <RadioButton
+                android:id="@+id/rouge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/rogue" 
+        android:onClick="classClick"/>
+            
+            <RadioButton
+                android:id="@+id/tank"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tank" 
+        android:onClick="classClick"/>
+            
+            <RadioButton
+                android:id="@+id/warrior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="@string/warrior" 
+        android:onClick="classClick"/>
+            
+            </RadioGroup>
+            
+        <ImageView 
+            android:id="@+id/player"
+            android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/crit"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dmm"
+            />
+            
+        <TextView
+            android:id="@+id/finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:text="@string/finish"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/save"
+            android:layout_marginTop="5dp"
+            android:onClick="save"
+            android:background="@drawable/buttons" />
+            
+    </LinearLayout>
+
+</ScrollView>

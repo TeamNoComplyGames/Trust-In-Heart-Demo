@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+     android:background="@drawable/character_bg"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/title"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/selectChar"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+    
+    <TextView
+            android:id="@+id/fileType"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fileFormat"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    
+    <com.torch2424.battlequest.GameTextView
+            android:id="@+id/directoryView"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    
+    
+     <ListView
+            android:id="@+id/ListView1"
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:divider="@color/transparent"
+    		android:dividerHeight="20dp"
+    		android:listSelector="@color/semired" />
+     
+     <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" 
+          android:gravity="center"
+    		 android:padding="5dp"
+    		 android:layout_weight="0" >
+     
+      <TextView
+                   android:id="@+id/confirmView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="#000000"
+                   android:textSize="25sp"
+                   android:paddingLeft="10dp"
+                   android:paddingRight="10dp"
+                   android:gravity="center_horizontal"
+                   android:text="@string/loading" />
+      
+       <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/editTextHint" />
+       
+       </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		 android:layout_weight="0"
+    		 android:orientation="horizontal"
+    		 android:gravity="center"
+    		 android:padding="5dp">
+    		 
+            <Button
+            android:id="@+id/startChar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:onClick="startChar"
+            android:text="@string/start"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    		 
+         <Button
+            android:id="@+id/newChar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:onClick="newChar"
+            android:text="@string/newChar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+         
+         <Button
+            android:id="@+id/importChar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:onClick="importChar"
+            android:text="@string/importChar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+         
+         
+         
+         <Button
+            android:id="@+id/editChar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:onClick="editChar"
+            android:text="@string/editChar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"  />
+          
+          <Button
+            android:id="@+id/deleteChar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:onClick="deleteChar"
+            android:text="@string/deleteChar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"  />
+         
+     </LinearLayout>
+      
+</LinearLayout>

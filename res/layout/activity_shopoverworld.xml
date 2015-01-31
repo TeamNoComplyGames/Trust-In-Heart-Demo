@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding ="5dp"
+    android:background="@drawable/shopoverworld"
+    android:scaleType="centerCrop"
+    tools:context="com.torch2424.battlequest.Overworld" >
+        
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+       		 android:layout_alignParentLeft="true"
+            android:background="@drawable/buttons"
+            android:onClick="cancel"
+            android:text="@string/back" />
+
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dmm"
+             android:clickable="true"
+            android:onClick="playerClick"
+            android:contentDescription="@string/crit" />
+
+        <LinearLayout 
+            android:id="@+id/itemShop"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" >
+            
+            <ImageButton
+                android:id="@+id/itemHouse"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/itemshops"
+            android:contentDescription="@string/tank"
+            android:onClick="enterShop"
+            android:scaleType="fitCenter" />
+            
+            <Button
+                android:id="@+id/itemText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+             android:textColor="#000000"
+             android:padding="8dp"
+             android:gravity="center"
+              android:onClick="enterShop"
+             android:background="@drawable/shopsigns"
+            android:text="@string/itemshop" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/HPShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/itemShop"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                 android:id="@+id/HPHouse"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/defshops"
+                android:contentDescription="@string/tank"
+                android:onClick="enterShop"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/HPText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopsigns"
+                android:gravity="center"
+                android:padding="8dp"
+                 android:onClick="enterShop"
+                android:text="@string/HPshop"
+                android:textColor="#000000" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/strShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/itemShop"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/strHouse"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/strshops"
+                android:contentDescription="@string/tank"
+                android:onClick="enterShop"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/strText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopsigns"
+                android:gravity="center"
+                android:padding="10dp"
+                 android:onClick="enterShop"
+                android:text="@string/strshop"
+                android:textColor="#000000" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/intShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/HPShop"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/intHouse"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/intshops"
+                android:contentDescription="@string/tank"
+                android:onClick="enterShop"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/intText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopsigns"
+                android:gravity="center"
+                android:padding="8dp"
+                 android:onClick="enterShop"
+                android:text="@string/intshop"
+                android:textColor="#000000" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/dexShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/HPShop"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/dexHouse"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/dexshops"
+                android:contentDescription="@string/tank"
+                android:onClick="enterShop"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/dexText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopsigns"
+                android:gravity="center"
+                android:padding="8dp"
+                 android:onClick="enterShop"
+                android:text="@string/dexshop"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+</RelativeLayout>
