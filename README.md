@@ -1,7 +1,7 @@
 # Trust-In-Heart-Demo
 The Demo for an android RPG named trust in heart! May be redone in unity soon
 
-![Decisions Img](http://aaronthedev.com/images/decisionsscreen.258983f1.png)
+![TIH Img](http://aaronthedev.com/images/tihscreen.538669f5.png)
 
 ##Why has this stopped development
 I realized making this in android, would limit it to only be on android. Also I was facing a very nast OOM error,
