@@ -1,7 +1,7 @@
 # Trust-In-Heart-Demo
 The Demo for an android RPG named trust in heart! May be redone in unity soon
 
-![TIH Img](http://aaronthedev.com/images/tihscreen.538669f5.png)
+![TIH Img](https://aaronthedev.com/images/tihscreen.fd911c72.png)
 
 ##Why has this stopped development
 I realized making this in android, would limit it to only be on android. Also I was facing a very nast OOM error,
@@ -16,10 +16,6 @@ Clone the repo, and open in Android Studio :) These projects may have weird issu
 Android since the Eclipse days, things may need a little work to get everything up and running!
 
 
-##License
+## LICENSE
 
-All Assets and rights of the application are reserved to Aaron Turner (Me)
-
-However this code is open-source and may be used to help in your own projects
-
-P.S I don't know much about each licenses haha
+Licensed under the [Apache License 2.0](http://choosealicense.com/licenses/apache-2.0/)
